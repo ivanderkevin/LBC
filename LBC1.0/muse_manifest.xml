@@ -1,0 +1,74 @@
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="letterboxchocolate.com" resolutions="1x" timestamp="1491825139928">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="master_a-master.css" crc="301407395" ref="mix---match:index:faq:contact-us:product:about-us"/>
+    <file name="mix---match.css" crc="72029445" ref="mix---match"/>
+    <file name="index.css" crc="211648595" ref="index"/>
+    <file name="faq.css" crc="466763939" ref="faq"/>
+    <file name="contact-us.css" crc="100726721" ref="contact-us"/>
+    <file name="product.css" crc="3772205269" ref="product"/>
+    <file name="about-us.css" crc="3821207567" ref="about-us"/>
+  </folder>
+  <folder name="assets">
+    <file name="buttonfox1.png" crc="481918600" seo="true" mt="1491291142000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:product:mix---match:contact-us:faq:about-us"/>
+    <file name="museutils.js" crc="4232573551" ref="index:product:mix---match:contact-us:faq:about-us"/>
+    <file name="whatinput.js" crc="86476730" ref="index:product:mix---match:contact-us:faq:about-us"/>
+    <file name="museconfig.js" crc="4152223963" ref="index:product:mix---match:contact-us:faq:about-us"/>
+    <file name="jquery.musemenu.js" crc="38860304" ref="index:product:mix---match:contact-us:faq:about-us"/>
+    <file name="webpro.js" crc="3770351119" ref="index"/>
+    <file name="musewpslideshow.js" crc="4244742588" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="432750910" ref="index"/>
+    <file name="touchswipe.js" crc="3912873526" ref="index"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index:product:mix---match:contact-us:faq:about-us"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:product:mix---match:contact-us:faq:about-us"/>
+    <file name="require.js" crc="4234670167" ref="index:product:mix---match:contact-us:faq:about-us"/>
+  </folder>
+  <folder name="images">
+    <file name="logo119x119.png" crc="4172054267" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3-crop-u1246.jpg" crc="4145932675" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="9-crop-u1326.jpg" crc="3979358144" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4c-crop-u1298.jpg" crc="374739385" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="buttonfox1svg.svg" crc="4169812826" ref="index"/>
+    <file name="buttonfox1svg_poster_u1514.png" crc="112473985" ref="index"/>
+    <file name="buttonfox2svg.svg" crc="402466814" ref="index"/>
+    <file name="buttonfox2svg_poster_u1522.png" crc="165046600" ref="index"/>
+    <file name="facebook_big.png" crc="244661343" seo="true" ref="index:product:mix---match:contact-us:faq:about-us">
+      <caption webpage="index" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="8ceab5681ad90ae9f96e33c8461d065b_andi-harriman-instagram-logo-clipart-png_2000-2000.png" crc="4055498067" seo="true" ref="index:product:mix---match:contact-us:faq:about-us">
+      <caption webpage="index" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="logo.png" crc="530650969" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="170153323" seo="true" mt="1491580057387" redirect="true"/>
+  <file name="product.html" crc="4004229248" seo="true" mt="1491580057387" redirect="true"/>
+  <file name="mix---match.html" crc="132055499" seo="true" mt="1491580057387" redirect="true"/>
+  <file name="contact-us.html" crc="483009774" seo="true" mt="1491629115034" redirect="true"/>
+  <file name="faq.html" crc="3879283834" seo="true" mt="1491580057387" redirect="true"/>
+  <file name="about-us.html" crc="432791651" seo="true" mt="1491580057387" redirect="true"/>
+</manifest>
