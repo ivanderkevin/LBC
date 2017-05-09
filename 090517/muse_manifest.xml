@@ -1,0 +1,628 @@
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="letterboxchocolate.com" resolutions="1x" timestamp="1494316632705">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="master_home-master.css" crc="289902071" ref="faq:index:contact-us"/>
+    <file name="nomq_preview_master_home-master.css" crc="4067739510" ref="faq:index:contact-us"/>
+    <file name="master_about-master.css" crc="377198333" ref="about-us"/>
+    <file name="nomq_preview_master_about-master.css" crc="121846742" ref="about-us"/>
+    <file name="master_prouct-master.css" crc="4119249083" ref="product:mix---match:boxoptions:confirmation-email"/>
+    <file name="nomq_preview_master_prouct-master.css" crc="4245601880" ref="product:mix---match:boxoptions:confirmation-email"/>
+    <file name="faq.css" crc="101108961" ref="faq"/>
+    <file name="nomq_faq.css" crc="4170712008" ref="faq"/>
+    <file name="iefonts_faq.css" crc="3824530138" ref="faq"/>
+    <file name="product.css" crc="4250815974" ref="product"/>
+    <file name="nomq_product.css" crc="265142357" ref="product"/>
+    <file name="iefonts_product.css" crc="3824530138" ref="product"/>
+    <file name="index.css" crc="437075951" ref="index"/>
+    <file name="nomq_index.css" crc="4051156600" ref="index"/>
+    <file name="iefonts_index.css" crc="3824530138" ref="index"/>
+    <file name="about-us.css" crc="4228277345" ref="about-us"/>
+    <file name="nomq_about-us.css" crc="254875361" ref="about-us"/>
+    <file name="iefonts_about-us.css" crc="3824530138" ref="about-us"/>
+    <file name="mix---match.css" crc="464557984" ref="mix---match"/>
+    <file name="nomq_mix---match.css" crc="368870485" ref="mix---match"/>
+    <file name="iefonts_mix---match.css" crc="3824530138" ref="mix---match"/>
+    <file name="boxoptions.css" crc="376200453" ref="boxoptions"/>
+    <file name="nomq_boxoptions.css" crc="225407053" ref="boxoptions"/>
+    <file name="iefonts_boxoptions.css" crc="3824530138" ref="boxoptions"/>
+    <file name="contact-us.css" crc="404813555" ref="contact-us"/>
+    <file name="nomq_contact-us.css" crc="135437484" ref="contact-us"/>
+    <file name="iefonts_contact-us.css" crc="3824530138" ref="contact-us"/>
+    <file name="confirmation-email.css" crc="4020903292" ref="confirmation-email"/>
+    <file name="nomq_confirmation-email.css" crc="150315144" ref="confirmation-email"/>
+    <file name="iefonts_confirmation-email.css" crc="3824530138" ref="confirmation-email"/>
+  </folder>
+  <folder name="assets">
+    <file name="buttonfox1.png" crc="481918600" seo="true" mt="1491291142000"/>
+    <file name="9.jpg" crc="3953604821" seo="true" mt="1491287051000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:product:mix---match:contact-us:faq:about-us:boxoptions:confirmation-email"/>
+    <file name="museutils.js" crc="4232573551" ref="index:product:mix---match:contact-us:faq:about-us:boxoptions:confirmation-email"/>
+    <file name="whatinput.js" crc="86476730" ref="index:product:mix---match:contact-us:faq:about-us:boxoptions:confirmation-email"/>
+    <file name="museconfig.js" crc="4152223963" ref="index:product:mix---match:contact-us:faq:about-us:boxoptions:confirmation-email"/>
+    <file name="jquery.musemenu.js" crc="38860304" ref="index:product:mix---match:contact-us:faq:about-us:boxoptions:confirmation-email"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index:product:about-us"/>
+    <file name="webpro.js" crc="3770351119" ref="index:product:mix---match:contact-us:faq:about-us:boxoptions:confirmation-email"/>
+    <file name="form_check.php" crc="3841221102" ref="index"/>
+    <file name="form_throttle.php" crc="4048049783" ref="index"/>
+    <file name="form_process.php" crc="3899230280" ref="index"/>
+    <file name="form-u60017.php" crc="4199630138" ref="index"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index:product:mix---match:contact-us:faq:about-us:boxoptions:confirmation-email"/>
+    <file name="form-u66631.php" crc="4199630138" ref="index"/>
+    <file name="musewpdisclosure.js" crc="347705465" ref="index:product:mix---match:contact-us:faq:about-us:boxoptions:confirmation-email"/>
+    <file name="form-u60826.php" crc="4199630138" ref="index"/>
+    <file name="form-u61418.php" crc="4199630138" ref="index"/>
+    <file name="form-u61784.php" crc="4199630138" ref="index"/>
+    <file name="form-u62159.php" crc="4199630138" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:product:mix---match:contact-us:faq:about-us:boxoptions:confirmation-email"/>
+    <file name="jquery.museresponsive.js" crc="433634197" ref="index:product:mix---match:contact-us:faq:about-us:boxoptions:confirmation-email"/>
+    <file name="require.js" crc="4234670167" ref="index:product:mix---match:contact-us:faq:about-us:boxoptions:confirmation-email"/>
+    <file name="form-u68433.php" crc="4199630138" ref="product"/>
+    <file name="form-u68443.php" crc="4199630138" ref="product"/>
+    <file name="form-u68470.php" crc="4199630138" ref="product"/>
+    <file name="form-u68605.php" crc="4199630138" ref="product"/>
+    <file name="form-u68479.php" crc="4199630138" ref="product"/>
+    <file name="form-u68592.php" crc="4199630138" ref="product"/>
+    <file name="form-u2417.php" crc="202985019" ref="contact-us"/>
+    <file name="form-u50293.php" crc="72879966" ref="contact-us"/>
+    <file name="form-u50655.php" crc="128253323" ref="contact-us"/>
+    <file name="form-u70602.php" crc="4199630138" ref="about-us"/>
+    <file name="form-u70583.php" crc="4199630138" ref="about-us"/>
+    <file name="form-u70995.php" crc="4199630138" ref="about-us"/>
+    <file name="form-u70981.php" crc="4199630138" ref="about-us"/>
+    <file name="form-u70961.php" crc="4199630138" ref="about-us"/>
+    <file name="form-u70970.php" crc="4199630138" ref="about-us"/>
+    <file name="form-u5204.php" crc="179874860" ref="confirmation-email"/>
+    <file name="form-u51956.php" crc="3804324409" ref="confirmation-email"/>
+    <file name="form-u52254.php" crc="345331771" ref="confirmation-email"/>
+  </folder>
+  <folder name="images">
+    <file name="home-favicon.ico" crc="3970908141" ref="index"/>
+    <file name="logo188x188.png" crc="530650969" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index:product:mix---match:contact-us:faq:about-us:boxoptions:confirmation-email"/>
+    <file name="banner2.png" crc="442832571" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak1936x936.png" crc="454507656" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak3909x468.png" crc="360225763" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak2909x468.png" crc="20158946" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak4735x936.png" crc="4122152423" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3-crop-u2007.jpg" crc="3882161127" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4c-crop-u2014.jpg" crc="4230333129" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9-crop-u2070.jpg" crc="4219194793" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9-crop-u3619.jpg" crc="4219194793" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="evetseidmubarak.png" crc="135370594" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pointerup.svg" crc="3869125681" ref="index"/>
+    <file name="pointerup_poster_u5445.png" crc="4198178939" ref="index"/>
+    <file name="pointerup2.svg" crc="345993946" ref="index"/>
+    <file name="pointerup2_poster_u5453.png" crc="4227856009" ref="index"/>
+    <file name="facebook_big.png" crc="121369408" seo="true" ref="index:product:mix---match:contact-us:faq:about-us:boxoptions:confirmation-email">
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+    </file>
+    <file name="8ceab5681ad90ae9f96e33c8461d065b_andi-harriman-instagram-logo-clipart-png_2000-2000.png" crc="4287538402" seo="true" ref="index:product:mix---match:contact-us:faq:about-us:boxoptions:confirmation-email">
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+    </file>
+    <file name="footerrubah.png" crc="220223574" seo="true" ref="index:product:mix---match:contact-us:faq:about-us:boxoptions:confirmation-email">
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+    </file>
+    <file name="logo145x145.png" crc="530650969" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="banner21321x745.png" crc="3965279360" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak1480x480.png" crc="4162223946" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak3466x240.png" crc="111146070" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak2466x240.png" crc="365489547" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak4377x480.png" crc="3797028915" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3-crop-u20072.jpg" crc="34644512" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4c-crop-u20142.jpg" crc="279704881" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9-crop-u20702.jpg" crc="4247484085" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9-crop-u36192.jpg" crc="4247484085" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="evetseidmubarak1321x503.png" crc="365239341" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="footerrubah297x197.png" crc="40690973" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo199x199.png" crc="530650969" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="banner21217x687.png" crc="80204066" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak1442x443.png" crc="498183611" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak3430x221.png" crc="360389563" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak2430x221.png" crc="3785472323" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak4347x442.png" crc="204309661" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3-crop-u20073.jpg" crc="3817550593" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4c-crop-u20143.jpg" crc="4191692831" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9-crop-u20703.jpg" crc="465367002" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9-crop-u36193.jpg" crc="465367002" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="evetseidmubarak1217x463.png" crc="4234465451" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo118x118.png" crc="3940632312" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="banner21076x607.png" crc="4272564510" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak1391x391.png" crc="88048673" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak3380x196.png" crc="281081269" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak2380x196.png" crc="4230023043" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak4307x391.png" crc="62965174" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3-crop-u20074.jpg" crc="4136001803" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4c-crop-u20144.jpg" crc="4252476295" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9-crop-u20704.jpg" crc="4059017315" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9-crop-u36194.jpg" crc="4059017315" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="evetseidmubarak1076x410.png" crc="3892133742" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="footerrubah242x161.png" crc="197095484" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="banner2767x433.png" crc="503974597" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="menu1.svg" crc="5654554" ref="index:product:about-us"/>
+    <file name="menu1_poster_u5655.png" crc="20082477" ref="index:product:about-us"/>
+    <file name="logophone.svg" crc="4012942457" seo="true" ref="index:product:mix---match:contact-us:faq:about-us:boxoptions:confirmation-email">
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+    </file>
+    <file name="logophone_poster_.png" crc="39960322" ref="index"/>
+    <file name="kotak1279x279.png" crc="237614104" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak3271x140.png" crc="4115714043" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak2271x140.png" crc="108425667" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak4219x279.png" crc="67346524" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3-crop-u42546.jpg" crc="4094136466" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4c-crop-u42550.jpg" crc="4068589645" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9-crop-u42544.jpg" crc="3935736786" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9-crop-u42548.jpg" crc="3935736786" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="evetseidmubarak768x293.png" crc="118817678" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="footerrubah-crop-u19552.png" crc="127883574" seo="true" ref="index:contact-us:faq">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+    </file>
+    <file name="banner2558x315.png" crc="4257879001" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak1203x203.png" crc="394862248" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak3197x102.png" crc="508397134" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak2197x102.png" crc="4229588878" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak4159x203.png" crc="459552989" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3-crop-u425462.jpg" crc="419839993" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4c136x138.jpg" crc="3913846350" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9-crop-u425442.jpg" crc="4013689886" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9-crop-u425482.jpg" crc="4013689886" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="evetseidmubarak558x213.png" crc="4239373406" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="banner2416x235.png" crc="459467643" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak1151x151.png" crc="4170473107" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak3147x76.png" crc="342488398" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak2147x76.png" crc="337158917" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak4119x151.png" crc="3949813927" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3-crop-u425463.jpg" crc="4252032329" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4c102x103.jpg" crc="90744058" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9-crop-u425443.jpg" crc="425150039" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9-crop-u425483.jpg" crc="425150039" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="evetseidmubarak416x159.png" crc="143024843" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="banner2380x215.png" crc="3840282632" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak1380x381.png" crc="165345341" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kotak4380x484.png" crc="3879124456" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3-crop-u43791.jpg" crc="20477493" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9-crop-u43787.jpg" crc="3852763273" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4c-crop-u43793.jpg" crc="4207442186" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9-crop-u43789.jpg" crc="3935736786" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="evetseidmubarak380x145.png" crc="3963522009" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="footerrubah103x68.png" crc="167511898" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="footerrubah-crop-u68463.png" crc="127883574" seo="true" ref="product:mix---match:boxoptions:confirmation-email">
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="product" alt=""/>
+      <caption webpage="product" alt=""/>
+    </file>
+    <file name="step1.svg" crc="16697487" seo="true" ref="mix---match:boxoptions">
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="boxoptions" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+    </file>
+    <file name="step1_poster_.png" crc="3869927463" ref="mix---match"/>
+    <file name="step2.svg" crc="154431989" seo="true" ref="mix---match">
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+    </file>
+    <file name="step2_poster_.png" crc="423463753" ref="mix---match"/>
+    <file name="step3.svg" crc="137312532" seo="true" ref="mix---match:confirmation-email">
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="confirmation-email" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+      <caption webpage="mix---match" alt=""/>
+    </file>
+    <file name="step3_poster_.png" crc="4220308041" ref="mix---match"/>
+    <file name="logosvg.svg" crc="4181916894" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="logosvg_poster_.png" crc="325885692" ref="about-us"/>
+    <file name="flavor.jpg" crc="3764241222" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="5.jpg" crc="370471279" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="flavor918x461.jpg" crc="373829288" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="5290x290.jpg" crc="3941332347" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="flavor627x315.jpg" crc="420307774" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="5223x224.jpg" crc="325599369" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="footerrubah-crop-u70900.png" crc="127883574" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="flavor456x229.jpg" crc="476324709" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="5163x163.jpg" crc="310324955" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="flavor340x171.jpg" crc="478237652" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="5121x121.jpg" crc="3790745757" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="flavor328x165.jpg" crc="511988387" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="5166x166.jpg" crc="4254628943" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="logo87x87.png" crc="64147355" seo="true" ref="confirmation-email">
+      <caption webpage="confirmation-email" alt=""/>
+    </file>
+    <file name="footerrubah178x118.png" crc="3949659817" seo="true" ref="confirmation-email">
+      <caption webpage="confirmation-email" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="484386505" seo="true" mt="1494316564580" redirect="true"/>
+  <file name="product.html" crc="284900197" seo="true" mt="1494308465786" redirect="true"/>
+  <file name="mix---match.html" crc="267587154" seo="true" mt="1494305600435" redirect="true"/>
+  <file name="contact-us.html" crc="115505565" seo="true" mt="1494309390626" redirect="true"/>
+  <file name="faq.html" crc="4093895556" seo="true" mt="1494309390626" redirect="true"/>
+  <file name="about-us.html" crc="3781449474" seo="true" mt="1494305631909" redirect="true"/>
+  <file name="boxoptions.html" crc="193347405" seo="true" mt="1494305600435" redirect="true"/>
+  <file name="confirmation-email.html" crc="396595643" seo="true" mt="1494305600435" redirect="true"/>
+</manifest>

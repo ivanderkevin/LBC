@@ -1,0 +1,89 @@
+.grid-gallery,.grid-details {
+    padding: 0;
+}
+.grid-gallery {
+        width: 75%;
+        float: left;
+    }
+
+   .grid-gallery h3 {
+        font-size: 13px;
+    }
+    .grid-gallery {
+        width: 100%;
+        float: none;
+    }
+
+.col-md-4.grid-stn.simpleCart_shelfItem{
+        margin: 0 !important;
+    }
+
+.ih-item.square.effect3 {
+    overflow: hidden;
+}
+.ih-item.square.effect3.colored .info {
+    background: #1a4a72;
+}
+.ih-item.square.effect3 .img {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+.ih-item.square.effect3 .info {
+    padding: 6px 12px;
+    background: #fa5400;
+    opacity: 0;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    z-index: 999;   
+}
+.ih-item.square.effect3 a:hover .info {
+    visibility: visible;
+    opacity: 999;
+}
+
+.ih-item.square.effect3.bottom_to_top .info {
+    top: auto;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+    z-index: 999 !important;
+    background-color:rgba(250, 84, 0, 0) !important;
+    opacity: 1;
+}
+.ih-item.square.effect3.bottom_to_top .bottom-2-top:hover .img {
+    -webkit-transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    -o-transform: translateY(-50px);
+    transform: translateY(-50px);
+}
+.ih-item.square.effect3.bottom_to_top .bottom-2-top:hover .info {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+.styl-hdn {
+    width: 50%;
+}
+.styl-hdn h3 {
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+    color: #272323;
+    text-align: left;
+    font-size: 22px;
+    padding: 0;
+    margin: 2px 0px 0px;
+    font-weight: 400;
+}
+
