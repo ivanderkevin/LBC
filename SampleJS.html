@@ -15,32 +15,39 @@ function allowDrop(ev) {
 }
 
 function drag(ev) {
-    ev.dataTransfer.setData("text", ev.target.id);
+    ev.dataTransfer.setData("text", ev.target.id); //get collection
 }
 
 function drop(ev) {
     ev.preventDefault();
-    var data = ev.dataTransfer.getData("text");
-	var el = ev.target;
-		if (!el.classList.contains('dropzone')) {
-			el = ev.target.parentNode;
-			ev.target.remove();
+    var data = ev.dataTransfer.getData("text"); //collectiona
+	var el = ev.target; //square box
+    var newnode = document.getElementById(data).cloneNode(true); 
+    if(ev.target.hasChildNodes()){ 
+        ev.target.parentNode.replaceChild(newnode,ev.target);        
+        var para = document.createElement("p");
+        var node = document.createTextNode("Replaced!");
+        para.appendChild(node);
+        var element = document.getElementById("div2");
+        element.appendChild(para);
     }
-    ev.target.appendChild(document.getElementById(data)).cloneNode(true);
+    else{
+        ev.target.appendChild(document.getElementById(data).cloneNode(true));
+    }
 }
 </script>
 </head>
 <body>
-
+<div id="div2">
 <div id="div1" class="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 <div id="div1" class="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 <div id="div1" class="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
 <br>
 <br>
-<img id="drag1" src="A.png" draggable="true" ondragstart="drag(event)" width="70px" height="70px">
-<img id="drag2" src="2.png" draggable="true" ondragstart="drag(event)" width="70px" height="70px">
-<img id="drag3" src="A.png" draggable="true" ondragstart="drag(event)" width="70px" height="70px">
+<img id="drag1" src="A.png" ondrop="drop(event)" ondragover="allowDrop(event)" draggable="true" ondragstart="drag(event)" width="70px" height="70px">
+<img id="drag2" src="2.png" ondrop="drop(event)" ondragover="allowDrop(event)" draggable="true" ondragstart="drag(event)" width="70px" height="70px">
+<img id="drag3" src="A.png" ondrop="drop(event)" ondragover="allowDrop(event)" draggable="true" ondragstart="drag(event)" width="70px" height="70px">
 
 </body>
 
