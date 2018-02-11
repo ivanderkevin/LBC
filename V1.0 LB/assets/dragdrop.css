@@ -1,0 +1,473 @@
+<style>
+html, body{
+    width:100vw; 
+    width:100vw; 
+    padding:0;
+    background-image: url("assets/mmbg.png");
+   /* overflow-y: hidden;
+    overflow-x: hidden;*/
+}
+/* ===========================================2x2======================================================= */
+#holder22{
+    width:53vw;
+    height:53vw;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-image: url(box22.png);
+    background-size: 30%;
+    position: fixed;
+    top: 1%;
+    left: 13%;
+}
+#container22{
+    width:24.9%; 
+    height:auto;
+    position: absolute;
+    margin-top: 17%;
+    top:0%;
+    left:2.6%;
+    
+}
+#container22 .square22{ 
+    padding-bottom: 50%; 
+    height: 0;
+    width:50%;
+    float:left; 
+    display:block;
+    overflow: hidden;
+    position: relative;
+}
+.square22 > #box{
+    position:absolute;
+    top:50%;
+    min-height:100%;
+    display:block;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    min-width:100%;
+    cursor:pointer;
+} 
+/* ===========================================3x3======================================================= */
+#holder33{
+    width:53vw;
+    height:53vw;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-image: url(box33.png);
+    background-size: 30%;
+    position: fixed;
+    top: 2%;
+    left: 12%;
+}
+#container33{
+    width:27.3%; 
+    height:auto;
+    position: absolute;
+    margin-top: 17%;
+    top:0.1%;
+    left:2.7%;
+    
+}
+#container33 .square33{ 
+    padding-bottom: 30%; 
+    height: 0;
+    width:30%;
+    float:left; 
+    display:block;
+    overflow: hidden;
+    position: relative;
+}
+.square33 > #box{
+    position:absolute;
+    top:50%;
+    min-height:100%;
+    display:block;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    min-width:100%;
+    cursor:pointer;
+} 
+/* ===========================================3x4======================================================= */
+#holder34{
+    width:60vw;
+    height:60vw;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-image: url(box34.png);
+    background-size: 30%;
+    position: fixed;
+    top: 2%;
+    left: 11%;
+}
+#container34{
+    width:28.63%; 
+    height:auto;
+    position: absolute;
+    margin-top: 17%;
+    top:0%;
+    left:2.7%;
+    
+}
+#container34 .square34{ 
+    padding-bottom: 22%; 
+    height: 0;
+    width:22%;
+    float:left; 
+    display:block;
+    overflow: hidden;
+    position: relative;
+}
+.square34 > #box{
+    position:absolute;
+    top:50%;
+    min-height:100%;
+    display:block;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    min-width:100%;
+    cursor:pointer;
+} 
+/* ===========================================Collection Boxes========================================== */
+#box{
+    width:11%;
+    height:auto;
+    cursor:pointer;
+}
+
+#collection{
+    width: 95%; 
+    height:95%;
+    margin:15px;
+    padding-left: 5%;
+}
+/* ===========================================Tabbed========================================== */
+.tabcontainer{
+    position: fixed;
+    top:5vw;
+    left:40vw;
+}
+/* Style the tab */
+div.tab {
+    width:50vw;
+    overflow: hidden;
+    border: 1px solid #FBD056;
+}
+
+/* Style the tab content */
+.tabcontent {
+    width:50vw;
+    height: 40vw;
+    display: none;
+    border: 1px solid #FBD056;
+    border-top: none;
+    overflow: auto;
+    text-align: left;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    width:33.33%;
+    float: left;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 5px;
+    transition: 0.2s;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #212121;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #FBD056;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #FBD056;
+}
+#order{
+    width: 26%;
+    position: absolute;
+    top: 24vw;
+    left: 0.3vw;
+    font-size: 13px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#lb{
+    text-align: left;
+}
+#orderButton{
+    width: 50%;
+    height: 30%;
+    background-color: #FBD056;
+    font-size: 12px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center; 
+    color: #212121;
+    border: 1px solid white;
+}
+#orderButton:hover{
+    width: 50%;
+    height: 30%;
+    background-color: white;
+    font-size: 13px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center; 
+    border: 1px solid #FBD056;
+    color: #212121;
+}
+input {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    border: 1px solid #212121;
+}
+
+
+
+
+
+/*3x3 MOBILE*/
+@media only screen and (max-width: 500px) {
+html, body{
+    max-width:100%; 
+    height:auto; 
+    padding:0;
+    overflow:auto;
+}
+/* ===========================================2x2======================================================= */
+#holder22{
+    width:66%;
+    height:66%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-image: url(box22.png);
+    background-size: 70%;
+    position: absolute;
+    top: 2%;
+    left: 25%;
+}
+#container22{
+    width:69.5%; 
+    height:auto;
+    position: absolute;
+    margin-top: 41%;
+    top:0%;
+    left:7.2%;
+}
+#container22 .square22{ 
+    padding-bottom: 40%; 
+    height: 0;
+    width:40%;
+    float:left; 
+    display:block;
+    overflow: hidden;
+    position: relative;
+}
+.square22 > #box{
+    position:absolute;
+    top:50%;
+    min-height:100%;
+    display:block;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    min-width:100%;
+    cursor:pointer;
+} 
+/* ===========================================3x3======================================================= */
+#holder33{
+    width:67%;
+    height:67%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-image: url(box33.png);
+    background-size: 70%;
+    position: absolute;
+    top: 1%;
+    left: 27%;
+}
+#container33{
+    width:63.5%; 
+    height:auto;
+    position: absolute;
+    margin-top: 40%;
+    top:0%;
+    left:6.5%;
+}
+#container33 .square33{ 
+    padding-bottom: 30%; 
+    height: 0;
+    width:30%;
+    float:left; 
+    display:block;
+    overflow: hidden;
+    position: relative;
+}
+.square33 > #box{
+    position:absolute;
+    top:50%;
+    min-height:100%;
+    display:block;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    min-width:100%;
+    cursor:pointer;
+} 
+/* ===========================================3x4======================================================= */
+#holder34{
+    width:67%;
+    height:67%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-image: url(box34.png);
+    background-size: 80%;
+    position: absolute;
+    top: 1%;
+    left: 25%;
+}
+#container34{
+    width:66.2%; 
+    height:auto;
+    position: absolute;
+    margin-top: 46%;
+    top:0%;
+    left:7.8%;
+}
+#container34 .square34{ 
+    padding-bottom: 25%; 
+    height: 0;
+    width:25%;
+    float:left; 
+    display:block;
+    overflow: hidden;
+    position: relative;
+}
+.square34 > #box{
+    position:absolute;
+    top:50%;
+    min-height:100%;
+    display:block;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    min-width:100%;
+    cursor:pointer;
+} 
+/* ===========================================Collection Boxes========================================== */
+#box{
+    width:10%;
+    height:auto;
+    cursor:pointer;
+}
+#collection{
+    width: 95%; 
+    height:90%;
+    margin:9px;
+    padding-left: 14px;
+}
+/* ===========================================Tabbed========================================== */
+.tabcontainer{
+    position: absolute;
+    top:68vw;
+    left:4vw;
+}
+/* Style the tab */
+div.tab {
+    width:95%;
+    overflow: hidden;
+    border: 1px solid #FBD056;
+}
+
+/* Style the tab content */
+.tabcontent {
+    width:95%;
+    height: 55vw;
+    display: none;
+    border: 1px solid #FBD056;
+    border-top: none;
+    overflow: auto;
+    text-align: left;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    width:33.33%;
+    float: left;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 5px;
+    transition: 0.2s;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #212121;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #FBD056;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #FBD056;
+}
+#order{
+    width: 100%;
+    position: absolute;
+    top:127vw;
+    left:-8vw;
+    font-size: 12px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#lb{
+    text-align: left;
+}
+#orderButton{
+    width: 50%;
+    height: 30%;
+    background-color: #FBD056;
+    font-size: 12px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center; 
+    color: #212121;
+    border: 1px solid white;
+}
+#orderButton:hover{
+    width: 50%;
+    height: 30%;
+    background-color: white;
+    font-size: 13px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center; 
+    border: 1px solid #FBD056;
+    color: #212121;
+}
+input {
+    width: 100%;
+    padding: 2px 6px;
+    margin: 4px 0;
+    border: 1px solid #212121;
+}
+</style>
