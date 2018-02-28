@@ -1,0 +1,58 @@
+.nav.navbar-nav.main-nav {
+  display:block;
+  margin:0 auto;
+  width:100%;
+  max-width:1000px;
+}
+
+.nav.navbar-nav.main-nav {
+  list-style:disc outside;
+  list-style-type:disc;
+  list-style-position:outside;
+  list-style-image:initial;
+  width:100%;
+  padding:0;
+  margin:0;
+}
+
+.navbar-nav > li {
+  list-style-type:none;
+  padding:0;
+  line-height:50px;
+  height:50px;
+}
+
+.navbar.navbar-default {
+  width:92%;
+  margin-left:4%;
+  padding:0px;
+  float:none;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color:#212121;
+  font-family:'Cabin';
+  letter-spacing:1px;
+  background-image:none;
+  font-size:12px;
+  margin:0px 20px 0px 20px;
+  padding:22px;
+  float:none;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color:#fbd056;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  color:#fbd056;
+  background:none;
+  text-decoration:none;
+  text-align:center;
+  transition:0.3s;
+}
+
+.active {
+  background-color:red;
+}
+
